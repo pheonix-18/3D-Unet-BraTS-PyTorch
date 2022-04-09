@@ -1,0 +1,88 @@
+Slurm nodes: c3-1
+You were assigned 1 gpu(s)
+Fri Apr  8 16:15:58 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  On   | 00000000:5E:00.0 Off |                    0 |
+| N/A   26C    P0    25W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Currently Loaded Modulefiles:
+ 1) anaconda3/2019.03-1(default)  
+Loading Data : 
+Train Loader 200 : Val Loader 42
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [25:04<3:45:36, 1504.04s/it] 20%|██        | 2/10 [50:19<3:21:27, 1510.97s/it] 30%|███       | 3/10 [1:15:34<2:56:29, 1512.80s/it] 40%|████      | 4/10 [1:40:45<2:31:11, 1511.84s/it] 50%|█████     | 5/10 [2:05:50<2:05:47, 1509.50s/it] 60%|██████    | 6/10 [2:30:55<1:40:32, 1508.07s/it] 70%|███████   | 7/10 [2:56:00<1:15:21, 1507.01s/it] 80%|████████  | 8/10 [3:21:04<50:12, 1506.01s/it]   90%|█████████ | 9/10 [3:46:07<25:04, 1504.93s/it]100%|██████████| 10/10 [4:11:07<00:00, 1503.62s/it]100%|██████████| 10/10 [4:11:07<00:00, 1506.78s/it]
+Train Epoch: 0, Iter: 0 Overall Loss: 3.616687297821045 | L1 Dice : 0.022416114807128906 | L2 Dice : 0.009837567806243896 | L3 Dice : 0.0026619434356689453
+Train Epoch: 0, Iter: 50 Overall Loss: 1.4884625673294067 | L1 Dice : 0.4405604600906372 | L2 Dice : 0.5679939389228821 | L3 Dice : 0.5106946229934692
+Train Epoch: 0, Iter: 100 Overall Loss: 1.3614065647125244 | L1 Dice : 0.716485321521759 | L2 Dice : 0.37357640266418457 | L3 Dice : 0.5552523732185364
+Train Epoch: 0, Iter: 150 Overall Loss: 1.5615556240081787 | L1 Dice : 0.43047624826431274 | L2 Dice : 0.1350860595703125 | L3 Dice : 0.8815469741821289
+Train Epoch: 0, Overall Loss: 1.693349211215973 | L1 Dice : 0.5153598546981811 | L2 Dice : 0.2670075047016144 | L3 Dice : 0.539835870563984
+Saving Model
+Train Epoch: 1, Iter: 0 Overall Loss: 1.6141774654388428 | L1 Dice : 0.4362184405326843 | L2 Dice : 0.19817495346069336 | L3 Dice : 0.7526169419288635
+Train Epoch: 1, Iter: 50 Overall Loss: 1.1504886150360107 | L1 Dice : 0.6601677536964417 | L2 Dice : 0.5640371441841125 | L3 Dice : 0.6314728856086731
+Train Epoch: 1, Iter: 100 Overall Loss: 1.95281982421875 | L1 Dice : 0.5978220105171204 | L2 Dice : 0.35281240940093994 | L3 Dice : 0.10263746976852417
+Train Epoch: 1, Iter: 150 Overall Loss: 1.399061918258667 | L1 Dice : 0.7628284096717834 | L2 Dice : 0.23772192001342773 | L3 Dice : 0.6098516583442688
+Train Epoch: 1, Overall Loss: 1.3454026144742965 | L1 Dice : 0.6340701282024384 | L2 Dice : 0.3814329394698143 | L3 Dice : 0.6448606938123703
+Saving Model
+Train Epoch: 2, Iter: 0 Overall Loss: 0.8071463108062744 | L1 Dice : 0.5692713260650635 | L2 Dice : 0.7203232645988464 | L3 Dice : 0.9082216620445251
+Train Epoch: 2, Iter: 50 Overall Loss: 0.7516793608665466 | L1 Dice : 0.6742987036705017 | L2 Dice : 0.747698187828064 | L3 Dice : 0.8292690515518188
+Train Epoch: 2, Iter: 100 Overall Loss: 1.0485260486602783 | L1 Dice : 0.8032628893852234 | L2 Dice : 0.5287632346153259 | L3 Dice : 0.6233959794044495
+Train Epoch: 2, Iter: 150 Overall Loss: 0.8855705857276917 | L1 Dice : 0.7452036738395691 | L2 Dice : 0.6546066403388977 | L3 Dice : 0.718124270439148
+Train Epoch: 2, Overall Loss: 1.2142842996120453 | L1 Dice : 0.6713352885842323 | L2 Dice : 0.4375253513455391 | L3 Dice : 0.6820750945806503
+Saving Model
+Train Epoch: 3, Iter: 0 Overall Loss: 0.7650150060653687 | L1 Dice : 0.8021136522293091 | L2 Dice : 0.5612149238586426 | L3 Dice : 0.8753974437713623
+Train Epoch: 3, Iter: 50 Overall Loss: 1.2749143838882446 | L1 Dice : 0.45119011402130127 | L2 Dice : 0.3888869285583496 | L3 Dice : 0.8905906677246094
+Train Epoch: 3, Iter: 100 Overall Loss: 0.8489605784416199 | L1 Dice : 0.6238963603973389 | L2 Dice : 0.7554457187652588 | L3 Dice : 0.7798969149589539
+Train Epoch: 3, Iter: 150 Overall Loss: 0.7745574116706848 | L1 Dice : 0.7943854928016663 | L2 Dice : 0.5271447896957397 | L3 Dice : 0.9101921319961548
+Train Epoch: 3, Overall Loss: 1.1909790354967118 | L1 Dice : 0.6741315111517906 | L2 Dice : 0.43805167078971863 | L3 Dice : 0.7019620326161384
+Saving Model
+Train Epoch: 4, Iter: 0 Overall Loss: 1.2522661685943604 | L1 Dice : 0.6846517324447632 | L2 Dice : 0.2631725072860718 | L3 Dice : 0.803150475025177
+Train Epoch: 4, Iter: 50 Overall Loss: 1.9986913204193115 | L1 Dice : 0.3208874464035034 | L2 Dice : 0.004260420799255371 | L3 Dice : 0.6781373023986816
+Train Epoch: 4, Iter: 100 Overall Loss: 1.2509292364120483 | L1 Dice : 0.6038147211074829 | L2 Dice : 0.40799009799957275 | L3 Dice : 0.7465408444404602
+Train Epoch: 4, Iter: 150 Overall Loss: 1.6342649459838867 | L1 Dice : 0.7325164675712585 | L2 Dice : 0.02045142650604248 | L3 Dice : 0.6167597770690918
+Train Epoch: 4, Overall Loss: 1.199151736497879 | L1 Dice : 0.6733726361393928 | L2 Dice : 0.43151275724172594 | L3 Dice : 0.701523842215538
+Saving Model
+Train Epoch: 5, Iter: 0 Overall Loss: 0.7813186645507812 | L1 Dice : 0.8607523441314697 | L2 Dice : 0.5713189840316772 | L3 Dice : 0.7906380891799927
+Train Epoch: 5, Iter: 50 Overall Loss: 1.2033597230911255 | L1 Dice : 0.7983169555664062 | L2 Dice : 0.26080775260925293 | L3 Dice : 0.7477355599403381
+Train Epoch: 5, Iter: 100 Overall Loss: 1.3160518407821655 | L1 Dice : 0.8034175634384155 | L2 Dice : 0.13337963819503784 | L3 Dice : 0.7515853047370911
+Train Epoch: 5, Iter: 150 Overall Loss: 0.8378499746322632 | L1 Dice : 0.8149787187576294 | L2 Dice : 0.5499853491783142 | L3 Dice : 0.799098551273346
+Train Epoch: 5, Overall Loss: 1.1447609516978263 | L1 Dice : 0.6874419614672661 | L2 Dice : 0.46527109503746034 | L3 Dice : 0.7073519295454025
+Saving Model
+Train Epoch: 6, Iter: 0 Overall Loss: 2.2143185138702393 | L1 Dice : 0.38866257667541504 | L2 Dice : 0.13975465297698975 | L3 Dice : 0.2598222494125366
+Train Epoch: 6, Iter: 50 Overall Loss: 1.0456305742263794 | L1 Dice : 0.8118118047714233 | L2 Dice : 0.328266978263855 | L3 Dice : 0.8181336522102356
+Train Epoch: 6, Iter: 100 Overall Loss: 1.278021216392517 | L1 Dice : 0.685351550579071 | L2 Dice : 0.28306829929351807 | L3 Dice : 0.7565851211547852
+Train Epoch: 6, Iter: 150 Overall Loss: 1.5650765895843506 | L1 Dice : 0.5396138429641724 | L2 Dice : 0.034968435764312744 | L3 Dice : 0.8619820475578308
+Train Epoch: 6, Overall Loss: 1.130625186264515 | L1 Dice : 0.6983754453063011 | L2 Dice : 0.4506725582480431 | L3 Dice : 0.7248162338137627
+Saving Model
+Train Epoch: 7, Iter: 0 Overall Loss: 0.778936505317688 | L1 Dice : 0.767259418964386 | L2 Dice : 0.6577094793319702 | L3 Dice : 0.8065704703330994
+Train Epoch: 7, Iter: 50 Overall Loss: 1.0480620861053467 | L1 Dice : 0.7945077419281006 | L2 Dice : 0.43013954162597656 | L3 Dice : 0.7299891114234924
+Train Epoch: 7, Iter: 100 Overall Loss: 0.7816155552864075 | L1 Dice : 0.5024231672286987 | L2 Dice : 0.8882299661636353 | L3 Dice : 0.8331267833709717
+Train Epoch: 7, Iter: 150 Overall Loss: 1.082944631576538 | L1 Dice : 0.5810357928276062 | L2 Dice : 0.5836989879608154 | L3 Dice : 0.7606998682022095
+Train Epoch: 7, Overall Loss: 1.0952470177412033 | L1 Dice : 0.7089322972297668 | L2 Dice : 0.4685053047537804 | L3 Dice : 0.7321509391069412
+Saving Model
+Train Epoch: 8, Iter: 0 Overall Loss: 1.2296340465545654 | L1 Dice : 0.48927950859069824 | L2 Dice : 0.5283394455909729 | L3 Dice : 0.755477249622345
+Train Epoch: 8, Iter: 50 Overall Loss: 0.520836353302002 | L1 Dice : 0.8541304469108582 | L2 Dice : 0.7260417342185974 | L3 Dice : 0.9045063257217407
+Train Epoch: 8, Iter: 100 Overall Loss: 1.5493322610855103 | L1 Dice : 0.8348678946495056 | L2 Dice : 0.1499086618423462 | L3 Dice : 0.46918368339538574
+Train Epoch: 8, Iter: 150 Overall Loss: 0.9905214905738831 | L1 Dice : 0.7533520460128784 | L2 Dice : 0.38825058937072754 | L3 Dice : 0.8719335198402405
+Train Epoch: 8, Overall Loss: 1.0978934341669082 | L1 Dice : 0.7069761469960213 | L2 Dice : 0.4728211373090744 | L3 Dice : 0.7264121022820472
+Saving Model
+Train Epoch: 9, Iter: 0 Overall Loss: 0.4587249159812927 | L1 Dice : 0.8363833427429199 | L2 Dice : 0.8044759631156921 | L3 Dice : 0.9032558798789978
+Train Epoch: 9, Iter: 50 Overall Loss: 0.7743215560913086 | L1 Dice : 0.7384592890739441 | L2 Dice : 0.668189287185669 | L3 Dice : 0.8321558833122253
+Train Epoch: 9, Iter: 100 Overall Loss: 0.8214243054389954 | L1 Dice : 0.7562891840934753 | L2 Dice : 0.6355491876602173 | L3 Dice : 0.7890875935554504
+Train Epoch: 9, Iter: 150 Overall Loss: 1.2130897045135498 | L1 Dice : 0.785088837146759 | L2 Dice : 0.1877625584602356 | L3 Dice : 0.816500186920166
+Train Epoch: 9, Overall Loss: 1.0816383200883866 | L1 Dice : 0.7135204088687896 | L2 Dice : 0.4766665944457054 | L3 Dice : 0.7324496883153916
+Saving Model
+Ending script...%
